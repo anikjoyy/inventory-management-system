@@ -14,7 +14,7 @@ const InventoryRow = ({ product }) => {
   const handleDelete = (id) => {
     const proceed = window.confirm('Are you sure you want to delete?');
     if (proceed) {
-      const url = `http://localhost:5000/products/${id}`;
+      const url = `https://blooming-beyond-44986.herokuapp.com/products/${id}`;
       fetch(url, {
         method: 'DELETE',
       })

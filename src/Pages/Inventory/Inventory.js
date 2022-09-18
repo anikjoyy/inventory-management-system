@@ -9,7 +9,9 @@ const Inventory = () => {
     isLoading,
     refetch,
   } = useQuery('products', () =>
-    fetch('http://localhost:5000/products').then((res) => res.json())
+    fetch('https://blooming-beyond-44986.herokuapp.com/products').then((res) =>
+      res.json()
+    )
   );
   if (isLoading) {
     return <Loading></Loading>;

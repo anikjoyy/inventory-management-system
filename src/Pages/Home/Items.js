@@ -9,7 +9,7 @@ const Items = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch('http://localhost:5000/products')
+    fetch('https://blooming-beyond-44986.herokuapp.com/products')
       .then((res) => res.json())
       .then((data) => {
         setItems(data);

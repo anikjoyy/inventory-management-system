@@ -13,7 +13,9 @@ const AddItem = () => {
   } = useForm();
 
   const { isLoading } = useQuery('product', () =>
-    fetch('http://localhost:5000/products').then((res) => res.json())
+    fetch('https://blooming-beyond-44986.herokuapp.com/products').then((res) =>
+      res.json()
+    )
   );
 
   const imageStorageKey = 'c9892aa85b6e645ea1658cd548d36ce0';
@@ -40,7 +42,7 @@ const AddItem = () => {
             supplierName: data.supplierName,
           };
           // send to your database
-          fetch('http://localhost:5000/products', {
+          fetch('https://blooming-beyond-44986.herokuapp.com/products', {
             method: 'POST',
             headers: {
               'content-type': 'application/json',
