@@ -1,0 +1,110 @@
+[
+  {
+    "_id": 1,
+    "name": "Murder Over Easy",
+    "img": "https://i.ibb.co/D8RkFDZ/book-1.png",
+    "shortDescription": "When Sunny Charles arrives in small-town Parfait, Florida, the last thing she expects is a note from her aunt instructing her to take control of the famous Sunny Side Up Café.",
+    "price": 199,
+    "quantity": 4,
+    "supplierName": "Rosie A. Point"
+  },
+  {
+    "_id": 2,
+    "name": "Murder on Tyneside",
+    "img": "https://i.ibb.co/qW3vLrm/book-2.png",
+    "shortDescription": "Recently widowed Agnes Lockwood is spending a few days on Tyneside in Northeast England, catching up with her past. When expensive jewelry is stolen at the hotel, Chief Inspector Alan Johnson gets on the case.",
+    "price": 259,
+    "quantity": 6,
+    "supplierName": "Eileen Thornton"
+  },
+  {
+    "_id": 3,
+    "name": "Wizards Rise",
+    "img": "https://i.ibb.co/X8yPFCh/book-3.png",
+    "shortDescription": "Ambitious and corrupt, The Mountain King will stop at nothing to reach his goals. Enslaving a sorceress to do his bidding, he begins his hunt for lost talismans that can help him bring the wizards back, and harness their power.",
+    "price": 299,
+    "quantity": 2,
+    "supplierName": "Phillip Tomasso"
+  },
+  {
+    "_id": 4,
+    "name": "High Plains Holiday",
+    "img": "https://i.ibb.co/dcxqy6v/book-4.png",
+    "shortDescription": "A small Western town receives an early Christmas present: a new pastor for the church. He is young, handsome, and single. To church organist Kristina Heitschmidt, Reverend Cody Williams is nothing but trouble, especially as his first move is trying to take control of the music away from her.",
+    "price": 359,
+    "quantity": 7,
+    "supplierName": "Simone Beaudelaire"
+  },
+  {
+    "_id": 5,
+    "name": "Chicken Culprit",
+    "img": "https://i.ibb.co/8MN5GGw/book-5.png",
+    "shortDescription": "When Anne Fremont discovers her neighbor dead in his compost pile, she’s thrust into the role of amateur detective. Who had the most to gain from the death and is Anne next on the list?",
+    "price": 399,
+    "quantity": 9,
+    "supplierName": "Vikki Walton"
+  },
+  {
+    "_id": 6,
+    "name": "Becoming Bader",
+    "img": "https://i.ibb.co/CnLKY8p/book-6.png",
+    "shortDescription": "When Bader's parents died in a house fire, she ended her plans for law school and went home to run the family bookstore. Five years later, the world is changing once again and Bader's life changes with it. Does she have what it takes?",
+    "price": 159,
+    "quantity": 3,
+    "supplierName": "T.K. Eldridge"
+  },
+  {
+    "_id": 7,
+    "name": "When We Let Go",
+    "img": "https://i.ibb.co/cgWvFqJ/book-7.png",
+    "shortDescription": "The only way to get what she wants is to let go of everything she thinks she knows. I never planned to live my life in a trailer in a tiny mountain town. Funny how divorce changes your plans for you. And I never planned to fall in love again. After Jack, I figured I was better off alone",
+    "price": 199,
+    "quantity": 5,
+    "supplierName": "Delancey Stewart"
+  },
+  {
+    "_id": 8,
+    "name": "Ice Crown",
+    "img": "https://i.ibb.co/9yQVSjX/book-8.png",
+    "shortDescription": "Talise can manipulate the elements with ease. Water, air, earth, and fire all bend to her will. As a citizen of the Storm—a crime-laden land where death is the only constant—her only chance for a better life is to become Master Shaper.",
+    "price": 299,
+    "quantity": 10,
+    "supplierName": "Kay L Moody"
+  },
+  {
+    "_id": 9,
+    "name": "Chosen",
+    "img": "https://i.ibb.co/30mDzvY/book-9.png",
+    "shortDescription": "When a fatal fever nearly wipes out the entire world's population, the survivors of what became known as the Dying believe the worst is in the past. Little do they know. In the aftermath of the Dying, survivor Jessica Monroe searches for sanctuary in a world unlike any she's ever known before",
+    "price": 259,
+    "quantity": 6,
+    "supplierName": "Christine Pope"
+  },
+  {
+    "_id": 10,
+    "name": "Unforgettable",
+    "img": "https://i.ibb.co/4jTyCCB/book-10.png",
+    "shortDescription": "After a tough beginning, single career woman, Jennifer Delaney, has life all figured out. A rocking career in finance, a great group of friends and singing with the community chorus fill her calendar and provide her with total satisfaction. Until the phone rings.",
+    "price": 299,
+    "quantity": 10,
+    "supplierName": "Linda Barret"
+  },
+  {
+    "_id": 11,
+    "name": "Fireplay",
+    "img": "https://i.ibb.co/Ny7L9qJ/book-11.png",
+    "shortDescription": "Journalist Jack Emery has seen it all. Embedded for the New York Standard with the 8th Marine Regiment in the heart of Afghanistan, he has covered everything from firefights to the opening of new schools. But nothing has prepared Jack for the story that is about to explode right in front of him.",
+    "price": 199,
+    "quantity": 5,
+    "supplierName": "Jack Emery"
+  },
+  {
+    "_id": 12,
+    "name": "The Civil War",
+    "img": "https://i.ibb.co/J2khPL7/book-12.png",
+    "shortDescription": "Some writers have viewed the struggle of the 1860s as a war of rebellion brought on by a slavepower conspiracy. To them it was a conflict between Northern humanity and Southern barbarism. James Ford Rhodes, who dealt more generously with the South than did many other Northern writers of his time, stated in 1913: Of the American Civil War it may safely be asserted that there was a single cause, slavery.",
+    "price": 399,
+    "quantity": 1,
+    "supplierName": "James I. Robertson"
+  }
+]
