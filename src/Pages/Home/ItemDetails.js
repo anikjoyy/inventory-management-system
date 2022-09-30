@@ -11,7 +11,7 @@ const ItemDetails = () => {
 
   useEffect(() => {
     const getItemById = async () => {
-      const url = `https://localhost:5000/products/${productId}`;
+      const url = `http://localhost:5000/products/${productId}`;
       const { data } = await axios.get(url);
       setItems(data);
     };
@@ -22,7 +22,7 @@ const ItemDetails = () => {
   const handleDelivered = (id) => {
     const getQuantity = async () => {
       const newUpdate = { quantity };
-      const url = `https://localhost:5000/delivered/${_id}`;
+      const url = `http://localhost:5000/delivered/${_id}`;
       const { data } = await axios.put(url, newUpdate);
       console.log(data);
       if (data.modifiedCount) {
@@ -40,7 +40,7 @@ const ItemDetails = () => {
     if (getQuantity >= 1) {
       const newQuantity = parseInt(getQuantity) + parseInt(quantity);
 
-      const url = `https://localhost:5000/addtostock/${productId}`;
+      const url = `http://localhost:5000/addtostock/${productId}`;
       const { data } = await axios.put(url, { newQuantity });
 
       if (data.modifiedCount === 1 || data.matchedCount === 1) {
@@ -53,7 +53,7 @@ const ItemDetails = () => {
 
   return (
     <div className='flex flex-col w-full lg:flex-row bg-base-200'>
-      <div className='card lg:card-side bg-base-100 shadow-xl my-5 mx-12 lg:mx-52'>
+      <div className='card lg:card-side bg-base-100 shadow-xl my-5 mx-6 lg:mx-52'>
         <figure>
           <img style={{ height: '50vh' }} src={img} alt='Album' />
         </figure>
