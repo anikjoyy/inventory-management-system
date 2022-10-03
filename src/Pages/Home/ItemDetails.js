@@ -11,7 +11,7 @@ const ItemDetails = () => {
 
   useEffect(() => {
     const getItemById = async () => {
-      const url = `https://blooming-beyond-44986.herokuapp.com/${productId}`;
+      const url = `https://blooming-beyond-44986.herokuapp.com/products/${productId}`;
       const { data } = await axios.get(url);
       setItems(data);
     };
@@ -22,7 +22,7 @@ const ItemDetails = () => {
   const handleDelivered = (id) => {
     const getQuantity = async () => {
       const newUpdate = { quantity };
-      const url = `https://blooming-beyond-44986.herokuapp.com/${_id}`;
+      const url = `https://blooming-beyond-44986.herokuapp.com/delivered/${_id}`;
       const { data } = await axios.put(url, newUpdate);
       console.log(data);
       if (data.modifiedCount) {
@@ -40,7 +40,7 @@ const ItemDetails = () => {
     if (getQuantity >= 1) {
       const newQuantity = parseInt(getQuantity) + parseInt(quantity);
 
-      const url = `https://blooming-beyond-44986.herokuapp.com/${productId}`;
+      const url = `https://blooming-beyond-44986.herokuapp.com/addtostock/${productId}`;
       const { data } = await axios.put(url, { newQuantity });
 
       if (data.modifiedCount === 1 || data.matchedCount === 1) {
