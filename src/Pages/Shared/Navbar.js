@@ -5,11 +5,12 @@ import { Link, NavLink } from 'react-router-dom';
 import auth from '../../Firebase/firebase.init';
 
 const Navbar = () => {
-  const user = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
-  const logout = () => {
+  const handleSignOut = () => {
     signOut(auth);
   };
+
   const menuItems = (
     <>
       <li>
@@ -22,15 +23,21 @@ const Navbar = () => {
         <NavLink to='/additem'>Add Item</NavLink>
       </li>
       <li>
-        <NavLink to='/login'>Login</NavLink>
-      </li>
-      <li>
-        <NavLink to='/signup'>Sign Up</NavLink>
-      </li>
-      <li>
-        <button className='btn btn-ghost' onClick={logout}>
-          Sign Out
-        </button>
+        {user ? (
+          <button
+            className='text-white btn btn-outline-danger rounded-pill'
+            onClick={handleSignOut}
+          >
+            Sign out
+          </button>
+        ) : (
+          <NavLink
+            className='text-white btn btn-outline-primary rounded-pill'
+            to='/login'
+          >
+            Login
+          </NavLink>
+        )}
       </li>
     </>
   );
