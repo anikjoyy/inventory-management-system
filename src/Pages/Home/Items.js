@@ -28,8 +28,11 @@ const Items = () => {
         ))}
         {isLoading ? <Loading></Loading> : Items}
       </div>
-      <div>
-        <Link to='/products' className='text-secondary'>
+      <div className='mt-5'>
+        <Link
+          to='/products'
+          className='px-12 py-3 bg-primary hover:bg-secondary rounded-full text-white font-medium tracking-wider transition'
+        >
           See All
         </Link>
       </div>

@@ -15,7 +15,7 @@ const Item = ({ item }) => {
         <img
           style={{ height: '50vh' }}
           src={img}
-          className='card-img-top card-image'
+          className='card-img-top card-image px-12 py-12 transform hover:scale-105 duration-500'
           alt='...'
         />
         <div className='card-body'>
@@ -35,7 +35,7 @@ const Item = ({ item }) => {
         </div>
         <button
           onClick={() => navigateToItemDetails(_id)}
-          className='btn btn-outline-danger w-50 text-white mx-3 mt-0 mb-4'
+          className='btn btn-outline-danger w-50 text-white mx-3 mt-0 mb-4 hover:bg-transparent hover:text-primary-focus'
         >
           Update
         </button>
